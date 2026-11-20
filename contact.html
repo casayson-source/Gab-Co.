@@ -1,4 +1,4 @@
-<!doct<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -9,89 +9,123 @@
 </head>
 <body>
 
-  <!-- Top Hero Banner -->
-  <header>
-    <img src="logo-icon.png" alt="Logo" width="48" height="48">
-    <h1 align="center">Contact Us</h1>
-    <p align="center">From product support to general inquiries, we've got you covered.</p>
-    <p align="center"><a href="#contact-form"><button type="button">Get Started</button></a></p>
+  <!--top banner-->
+    <header class="bg-2 py-12 text-center">
+    <table width="100%" cellpadding="15" cellspacing="0">
+      <tr>
+        <td align="left" valign="top">
+          <img src="logo-icon.png" alt="Logo" width="48" height="48">
+        </td>
+        <td align="center" valign="middle">
+          <h1 class="text-5xl fw-bold mb-5">Contact Us</h1>
+          <p class="text-lg fg-2 mb-9">From product support to general inquiries, we've got you covered.</p>
+          <a href="#contact-form" class="btn-solid theme-primary btn-lg">Get Started</a>
+        </td>
+        <td width="48"> </td>
+      </tr>
+    </table>
   </header>
+ <br>
+ 
+ <!--subheader-->
+ <h2 align="center">CONTACT US</h2>
 
-  <hr>
+ <!--infos-->
+  <table width="80%" align="center" cellpadding="10" cellspacing="10">
+  <tr>
 
-  <!-- Primary Page Content -->
-  <main>
+    <!-- Card 1: Phone -->
+    <td width="33%" valign="top">
+      <table border="1" cellpadding="15" cellspacing="0" width="100%">
+        <tr>
+          <td>
+            <p><img src="phone-icon.png" alt="Phone" width="32" height="32"></p>
+            <p><strong>+639 1234 56789</strong></p>
+            <p>Give us a call for inquiries, assistance, and order updates.</p>
+          </td>
+        </tr>
+      </table>
+    </td>
 
-    <!-- Contact Cards Section -->
-    <section>
-      <h2 align="center">CONTACT US</h2>
+    <!-- Card 2: Email -->
+    <td width="33%" valign="top">
+      <table border="1" cellpadding="15" cellspacing="0" width="100%">
+        <tr>
+          <td>
+            <p><img src="email-icon.png" alt="Email" width="32" height="32"></p>
+            <p><strong><u>brand@gmail.com</u></strong></p>
+            <p>Send us an email for questions, concerns, or business inquiries.</p>
+          </td>
+        </tr>
+      </table>
+    </td>
 
-      <article>
+    <!-- Card 3: Store Locations -->
+    <td width="33%" valign="top">
+      <table border="1" cellpadding="15" cellspacing="0" width="100%" height="32">
+        <tr>
+          <td>
+            <p><img src="store-icon.png" alt="Store Locations" width="32" height="32"></p>
+            <p><strong>Store Locations</strong></p>
+            <p>Find our physical and online stores here.</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+    </tr>
+  </table>
+
+  <br>
+
+    <table width="80%" align="center" cellpadding="10" cellspacing="10">
+    <tr>
+      <td width="45%" valign="top">
+        <h3>Operating Hours</h3>
+        <p><img src="store-icon.png" alt="Store" width="16" height="16"> Monday - Friday: 9 AM - 5 PM</p>
+        <p><img src="home-icon.png" alt="Home" width="16" height="16"> Weekends and Holidays: 9 AM - 3 PM</p>
+      </td>
+
+      <td width="55%" valign="top">
+        <form id="contact-form" class="contact-form" action="#" method="post">
+        <h3>LET'S GET IN TOUCH!</h3>
         <fieldset>
-          <legend><img src="phone-icon.png" alt="Phone" width="32" height="32"></legend>
-          <p><strong>+639 1234 56789</strong></p>
-          <p>Give us a call for inquiries, assistance, and order updates.</p>
-        </fieldset>
-      </article>
-
-      <br>
-
-      <article>
-        <fieldset>
-          <legend><img src="email-icon.png" alt="Email" width="32" height="32"></legend>
-          <p><strong><u>brand@gmail.com</u></strong></p>
-          <p>Send us an email for questions, concerns, or business inquiries.</p>
-        </fieldset>
-      </article>
-
-      <br>
-
-      <article>
-        <fieldset>
-          <legend><img src="store-icon.png" alt="Store Locations" width="32" height="32"></legend>
-          <p><strong>Store Locations</strong></p>
-          <p>Find our physical and online stores here.</p>
-        </fieldset>
-      </article>
-    </section>
-
-    <br>
-
-    <!-- Operating Hours Section -->
-    <section>
-      <h3>Operating Hours</h3>
-      <p><img src="store-icon.png" alt="Store" width="16" height="16"> Monday - Friday: 9 AM - 5 PM</p>
-      <p><img src="home-icon.png" alt="Home" width="16" height="16"> Weekends and Holidays: 9 AM - 3 PM</p>
-    </section>
-
-    <br>
-
-    <!-- Contact Form Section -->
-    <section id="contact-form">
-      <h3>LET'S GET IN TOUCH!</h3>
-      <fieldset>
-        <form action="#" method="post">
-          <p>
-            <label for="email"><strong>Email:</strong></label><br>
-            <input type="email" id="email" name="email" placeholder="Email" size="50">
-          </p>
-
-          <p>
-            <label for="name"><strong>Name:</strong></label><br>
-            <input type="text" id="name" name="name" placeholder="Name" size="50">
-          </p>
-
-          <p>
-            <label for="message"><strong>Message/Concerns</strong></label><br>
-            <textarea id="message" name="message" placeholder="Message/Concerns" rows="6" cols="52"></textarea>
-          </p>
-
-          <p align="right">
-            <button type="submit">Submit</button>
-          </p>
+          <div class="mb-3">
+            <label for="full-name" class="form-label">Full name <span class="required">(required)</span></label>
+            <input type="text" id="full-name" name="full-name" class="form-control" required autocomplete="name" aria-describedby="yourFullName">
+          </div>
+      
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address <span class="required">(required)</span></label>
+            <input type="email" class="form-control" name="email" id="email" aria-describedby="yourEmailAddress" autocomplete="email">
+          </div>
+      
+          <div class="mb-3">
+            <label for="topic" class="form-label">Topic <span class="required">(required)</span></label>
+            <select id="topic" name="topic" class="form-control"  aria-describedby="chooseTopic" required>
+              <option value="">Choose a topic</option>
+              <option value="order">A question about an order</option>
+              <option value="product">A question about a product</option>
+              <option value="other">Something else</option>
+            </select>  
+          </div>
+      
+          <div>
+            <div class="form-field">
+              <label for="message" class="form-label">Message <span class="required">(required)</span></label>
+              <textarea class="form-control" id="message" name="message" rows="3" aria-describedby="message-contact-us"></textarea>
+              <div class="form-text">
+                Please do not include passwords or payment details.
+              </div>
+            </div>
+          </div>
         </form>
-      </fieldset>
-    </section>
-  </main>
-</body>
+        <br>
+        <button type="submit" class="btn-solid theme-primary">Submit</button>
+          </form>
+        </fieldset>
+      </td>
+    </tr>
+  </table>
+ </main>
+ </body>
 </html>
