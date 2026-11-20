@@ -28,7 +28,7 @@ if (form) {
 
         if (status) {
             status.textContent = 
-            "Your email app should open with your message ready. Press -Send- there to finish " +
+            "Your email app should open with your message ready. Press Send there to finish " +
             "If nothing opens, email us at " + TO_ADDRESS + "."
         }
 
