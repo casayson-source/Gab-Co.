@@ -1,7 +1,7 @@
 :root {
     --navy: #1B347A;
     --cyan: #00A6C8;
-    --earth: #704F49;
+    --brown: #704F49;
     --off-white: #F7F7ED;
     --charcoal: #303030;
     --white: #FFFFFF;
@@ -120,7 +120,7 @@ main > h1 {
 }
 
 .required {
-    color: var(--earth);
+    color: var(--brown);
     font-size: 13px;
 }
 
