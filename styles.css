@@ -80,6 +80,12 @@ p {
     color: var(--cyan);
 }
 
+.navbar {
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.35);
+}
+
 main {
     max-width: 1200px;
     margin: 0 auto;
